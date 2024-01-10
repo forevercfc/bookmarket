@@ -55,6 +55,9 @@
         <a class="nav-link"
             href='<c:url value="/Test/books.jsp"/>'>도서 목록 <span class="sr-only">(current)</span></a>
       </li>
+      <li class="nav-item active"><a class="nav-link"
+				href='<c:url value="/BoardListAction.do?PageNum=1"/>'>게시판</a>
+			</li>
 
       
       
@@ -86,7 +89,6 @@
 
 	</div>
 </nav>
-
 
 
 
